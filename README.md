@@ -154,7 +154,7 @@ vis_hw4/
 └── README.md
 ```
 ## Performance
-
+![Performance Snapshot](assets/performance.png)
 ![Training Loss curve](assets/loss_curve.png)
 ![Training PSNR curve](assets/psnr_curve.png)
-![Performance Snapshot](assets/performance.png)
+
