@@ -42,7 +42,7 @@ python vis_hw4/train.py \
     --dim        64 \
     --prompt_len 8 \
     --crop       192 \
-    --batch      2 \
+    --batch      8 \
     --s1_epochs  180 \
     --s2_epochs  40
 ```
@@ -56,7 +56,7 @@ python vis_hw4/train.py \
 | EMA decay | 0.999 | 0.9995 |
 | Augmentation | hflip + vflip + rot90 | hflip only |
 | Crop size | 192×192 | 192×192 |
-| Batch size | 2 | 2 |
+| Batch size | 8 | 8 |
 
 Other fixed settings: AdamW (β=0.9, 0.999, wd=1e-5), Charbonnier loss (ε=1e-3), AMP (fp16), grad clip norm=1.0, train/val split=95/5.
 
