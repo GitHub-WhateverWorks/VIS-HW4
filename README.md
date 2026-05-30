@@ -87,7 +87,7 @@ data = np.load('vis_hw4/predictions/pred.npz')
 arr = data['1.png']   # shape (3, H, W), uint8
 ```
 
-Inference uses 4-fold TTA (original + hflip + vflip + hvflip).
+Inference uses 8-fold TTA.
 
 ---
 
