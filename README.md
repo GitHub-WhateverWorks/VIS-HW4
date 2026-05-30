@@ -153,3 +153,8 @@ vis_hw4/
 ├── train_colab.ipynb
 └── README.md
 ```
+## Performance
+
+![Training Loss curve](assets/loss_curve.png)
+![Training PSNR curve](assets/psnr_curve.png)
+![Performance Snapshot](assets/performance.png)
